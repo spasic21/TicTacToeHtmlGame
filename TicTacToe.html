@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title>Tic Tac Toe</title>
+		<link href = "style.css" rel = "stylesheet"/>
+	</head>
+	<body onload = "startGame()">
+		<form width = "400" height = "400">
+			<div id = "message">Messages Will Go Here!</div>
+			<table border = "1">
+				<tr>
+					<td id = "s1" class = "Square" onclick = "nextMove(this)"></td>
+					<td id = "s2" class = "Square" onclick = "nextMove(this)"></td>
+					<td id = "s3" class = "Square" onclick = "nextMove(this)"></td>
+				</tr>
+				<tr>
+					<td id = "s4" class = "Square" onclick = "nextMove(this)"></td>
+					<td id = "s5" class = "Square" onclick = "nextMove(this)"></td>
+					<td id = "s6" class = "Square" onclick = "nextMove(this)"></td>
+				</tr>
+				<tr>
+					<td id = "s7" class = "Square" onclick = "nextMove(this)"></td>
+					<td id = "s8" class = "Square" onclick = "nextMove(this)"></td>
+					<td id = "s9" class = "Square" onclick = "nextMove(this)"></td>
+				</tr>
+			</table></br>
+			<input type = "button" id = "button" value = "Start Over!" onclick = "startGame()">
+		</form>
+		<script language = "javascript" type = "text/javascript" src = "TicTacToeScript.js"></script>
+	</body>
+</html>
